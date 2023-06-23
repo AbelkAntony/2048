@@ -28,4 +28,50 @@ public class TileBoard : MonoBehaviour
         tile.Spawn(grid.GetRandomEmptyCell());
         tiles.Add(tile);
     }
+
+    private void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.W)|| Input.GetKeyDown(KeyCode.UpArrow))
+        {
+
+        }
+        else if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
+        {
+
+        }
+        else if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+
+        }
+        else if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
+        {
+
+        }
+    }
+
+    private void MoveTiles(Vector2Int direction, int startX, int incrimentX, int startY, int incrimentY )
+    {
+        for(int x=startX; x<grid.width; x+= incrimentX)
+        {
+            for(int y =startY; y<grid.height; y+= incrimentY)
+            {
+
+            }
+        }
+    }
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
+
+
