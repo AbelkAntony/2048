@@ -8,3 +8,10 @@
 - Uses coroutine method
 - Yield return uses to wait for seconds for particular time period
 - Uses text mesh pro for UI elements
+
+
+# ScreenShots
+
+![Capture1](/ScreenShots/1.png)
+![Capture1](/ScreenShots/2.png)
+![Capture1](/ScreenShots/3.png)
